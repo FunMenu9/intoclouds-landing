@@ -1,0 +1,61 @@
+{
+  "setup_instructions": {
+    "title": "Настройка контента в Strapi",
+    "steps": [
+      {
+        "step": 1,
+        "title": "Создание админ аккаунта",
+        "description": "После запуска Strapi перейдите на http://localhost:1337/admin и создайте админ аккаунт"
+      },
+      {
+        "step": 2,
+        "title": "Настройка интернационализации",
+        "description": "Перейдите в Settings → Internationalization и добавьте локали: en (по умолчанию), ru, ro"
+      },
+      {
+        "step": 3,
+        "title": "Создание контента",
+        "description": "Создайте контент для каждой секции на всех языках"
+      }
+    ]
+  },
+  "sample_content": {
+    "hero_section_en": {
+      "title": "NEXT-GEN CLOUD MIGRATION",
+      "subtitle": "TRANSFORM YOUR INFRASTRUCTURE",
+      "description": "We are certified cloud architects specializing in seamless on-premise to cloud migration. Zero downtime guaranteed, up to 50% cost reduction, 24/7 expert support.",
+      "buttonText": "START FREE ASSESSMENT",
+      "stats": [
+        { "label": "Projects", "value": "50+", "icon": "trending-up" },
+        { "label": "Uptime", "value": "99.9%", "icon": "activity" },
+        { "label": "Savings", "value": "40%", "icon": "dollar-sign" },
+        { "label": "Support", "value": "24/7", "icon": "headphones" }
+      ]
+    },
+    "services_en": [
+      {
+        "title": "ON-PREMISE TO CLOUD MIGRATION",
+        "description": "Complete migration of physical servers, local data centers and legacy systems to AWS, Azure or Google Cloud with zero downtime guarantee.",
+        "icon": "server",
+        "order": 1,
+        "features": [{ "name": "PHYSICAL SERVERS" }, { "name": "VMWARE TO CLOUD" }, { "name": "LEGACY APPS" }]
+      },
+      {
+        "title": "OPTIMIZATION & MODERNIZATION",
+        "description": "Transform monolithic applications to microservices, cost optimization and implementation of modern DevOps practices.",
+        "icon": "cpu",
+        "order": 2,
+        "features": [{ "name": "MICROSERVICES" }, { "name": "CONTAINERIZATION" }, { "name": "COST OPTIMIZATION" }]
+      }
+    ],
+    "platforms_en": [
+      {
+        "name": "AMAZON WEB SERVICES",
+        "description": "Certified Solutions Architect. Expertise in EC2, Lambda, RDS, S3, CloudFormation and other AWS services.",
+        "logoColor": "orange",
+        "order": 1,
+        "badges": [{ "text": "AWS CERTIFIED", "color": "orange" }, { "text": "5+ YEARS EXPERIENCE", "color": "cyan" }]
+      }
+    ]
+  }
+}
